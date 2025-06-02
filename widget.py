@@ -43,7 +43,7 @@ def enterKey(optionalLocation):
 
     # Get weather data
     currentLocation = locationInput.get()
-    url = "http://api.weatherapi.com/v1/current.json?key=0f9ca165a3cd49d8ac5153431252905&q=" + currentLocation
+    url = "http://api.weatherapi.com/v1/current.json?key=USERKEY&q=" + currentLocation
 
     try:
         response = requests.get(url)
