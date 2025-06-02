@@ -19,7 +19,7 @@ root.resizable(False, False)
 
 #### Frame 1
 # Load the image
-bg_image = Image.open("C:/Users/H594998/OneDrive - Honeywell/Desktop/RandomVS/APIs/background_images/ClearSkyFinal.jpg")
+bg_image = Image.open("background_images/ClearSkyFinal.jpg")
 bg_photo = ImageTk.PhotoImage(bg_image)
 
 # Create a label with the image
